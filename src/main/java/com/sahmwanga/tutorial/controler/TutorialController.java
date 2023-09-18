@@ -26,7 +26,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.sahmwanga.tutorial.model.Tutorial;
 import com.sahmwanga.tutorial.repository.TutorialRepository;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://localhost:4200/api/tutorials")
 @RestController
 @RequestMapping("/api")
 public class TutorialController {
